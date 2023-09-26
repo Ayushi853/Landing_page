@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Landing Page</title>
+	<style type="text/css">
+		header{
+			width: 100%;
+			height: 100vh;
+			background :linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("https://www.greavesindia.co.uk/wp-content/uploads/2015/07/hill-station-hotels.jpeg");
+			background-size: cover;
+			font-family: sans-serif;
+		}
+		nav{
+			width: 100%;
+			height: 100px;
+			 color: black;
+			 display: flex;
+			 justify-content: space-around;
+			 align-items: center;
+		}
+		.logo{
+			font-size: 20px;
+			font-family: sans-serif;
+			letter-spacing: 1px;
+			color: white;
+		}
+		.menu a{
+		text-decoration: none;
+		color: white;
+		padding:  10px 10px;
+        position: relative;
+		}
+		.menu a:before{
+			content:'';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 0%;
+			height: 100%;
+			border-bottom: 2px solid indianred;
+			transition: 0.4s linear;
+		}
+		.menu a:hover:before{
+			width: 90%;
+
+		}
+		.register a{
+			background-color: indianred;
+			padding: 10px 20px;
+			border-radius: 10px;
+			text-decoration: none;
+			color: white;
+			transition: 0.4s;
+		}
+		.register a:hover{
+			background: transparent;
+			border: 1 px solid indianred;	
+		}
+		.h-txt a:hover{
+			background: transparent;
+			border: 1 px solid indianred;	
+		}
+		.h-txt{
+			max-width: 650px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			text-align: center;
+			color: white;
+		}
+		.h-txt span{
+			letter-spacing: 2px;
+		}
+		.h-txt h1{
+            font-size: 3.5em;
+		}
+		.h-txt a{
+			text-decoration: none;
+			color: white;
+			padding: 10px 10px;
+			background-color: indianred;
+			border-radius: 10px;
+			letter-spacing: 2px;
+			transition: 0.4s;
+		}
+		
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+		<div class="logo">
+			TRAVEL-X
+		</div>
+
+		
+		<div class="menu">
+			<a href="#">Home</a>
+			<a href="#">Hill Stations</a>
+			<a href="#">Best offer's</a>
+			<a href="#">Our Sites</a>
+			<a href="#">Contact</a>
+			</div>
+			<div class="register">
+				<a href="#">Register</a>
+			</div>
+	</nav>
+	<section class="h-txt">
+
+		<span>Enjoy</span>
+		<h1>International Travel Agency</h1>
+		<br>
+		<a href=#>Book Your Trip Now</a>
+	</section>
+	</header>
+
+</body>
+</html
